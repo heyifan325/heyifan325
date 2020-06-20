@@ -1,0 +1,45 @@
+﻿
+body {
+
+  font-family: SimHei;
+  font-weight: 80px;
+  line-height: 1.8em;
+  color:#000000;
+  background-image:url(../img/表单back.jpg);
+}
+
+.login_frame{
+	width:400px;
+	height:610px;
+	margin-left:480px;
+	margin-top:30px;
+	background-color:#fff;
+	opacity:0.5;
+	border-radius:20px;
+	outline:none;
+	
+}
+
+
+p{
+	text-align:center;
+}
+
+.login_control{
+	margin-left:180px;
+}
+.text_field{
+	outline:none;
+	text-indent:1em;
+}
+.btn_login{
+	cursor:pointer;
+	width:60px;
+	margin-left:-10px;
+	height:40px;
+	font-family:STCaiyun;
+	font-weight:bold;
+	font-size:15px;
+	border-radius:10px;
+    outline:none;
+}

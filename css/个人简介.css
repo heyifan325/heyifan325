@@ -1,0 +1,564 @@
+﻿
+
+@import url(http://pablogarciafernandez.com/css/reset.css);
+
+/* Typography
+------------------------------------- */
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+body {
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.8em;
+  background-image: linear-gradient(#4b4b4b, #7f1f0f,#2a2b2f); 
+}
+
+/* Navigation */
+
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #151515;
+  
+  transition-delay: 0s;
+  transition-duration: 0.36s;
+  transition-property: all;
+  transition-timing-function: line;
+}
+
+nav{
+	margin-top:480px;
+	position:fixed;
+}
+nav a:hover { font-weight: 400; }
+
+nav,
+nav:hover { padding: 1em; }
+
+nav a { text-indent: -200px; }
+
+nav:hover a {
+  text-indent:0px;
+  color: #000000;
+}
+
+svg,
+a { vertical-align: top; }
+
+/* End Navigation */
+
+
+/* Sections */
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size:3em; 
+  font-weight: 300;
+  color:#000000;
+  line-height:1.8em;
+}
+
+h2 { font-weight: 300; }
+
+h2 a { font-weight: 700; }
+
+/* End Sections */
+
+
+/* Structure
+------------------------------------- */
+/* Navigation */
+
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: block;
+  height: auto;
+  min-width: 40px;
+  width: 40px;
+  
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+  transition-property: all;
+  transition-timing-function: line;
+}
+
+nav:hover {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: auto;
+  width: 140px;
+}
+
+nav a {
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity:0;
+  margin-left: 1em;
+}
+
+nav:hover a {
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity:1;
+}
+
+li {
+  display: block;
+  padding:0.2em;
+  height:32px;
+  font-weight:bold;
+}
+
+.Guide{
+	width:1050px;
+	height:60px;
+	text-align:center;
+	margin-top:60px;
+	margin-left:155px;
+	top:0;
+}
+
+.guide{
+	height:65px;
+	width:590px;
+	margin-top:125px;
+	background-color:#fff;
+	border-radius:50px;
+	opacity:0.6;
+}
+
+.g-content{
+	height:55px;
+	width:580px;
+	margin-left:0px;
+}
+
+.return{
+	position:relative;
+	height:70px;
+	width:80px;
+}
+
+.guidelogo{
+	margin-left:20px;
+	margin-top:4px;
+	display:block;
+}
+
+.Intro{
+	float:left;
+	margin-top:-42px;
+	width:130px;
+	margin-left:100px;
+}
+.Intro a:hover{
+	border-bottom:4px solid #8f0000;
+}
+
+.Hobby{
+	float:left;
+	margin-top:-42px;
+	width:60px;
+	margin-left:250px;
+}
+.Hobby a:hover{
+	border-bottom:4px solid #000000;
+}
+.hobby{
+	color:#a52939;
+}
+
+
+.Music{
+	float:left;
+	margin-top:-42px;
+	width:60px;
+	margin-left:330px;
+}
+.Music a:hover{
+	border-bottom:4px solid #8f0000;
+}
+
+
+.Drama{
+	float:left;
+	margin-top:-42px;
+	width:60px;
+	margin-left:405px;
+}
+.Drama a:hover{
+	border-bottom:4px solid #000000;
+}
+.drama{
+	color:#a52939;
+}
+
+.Photo{
+	float:left;
+	margin-top:-42px;
+	width:60px;
+	margin-left:488px;
+}
+.Photo a:hover{
+	border-bottom:4px solid #8f0000;
+}
+
+
+.search{
+	width:400px;
+	height:70px;
+	text-align:right;
+    margin-top:-37px;
+	margin-left:800px;
+}
+.keyword{
+	background:transparent;
+    border:0px;
+	outline:none;
+    height:25px;
+    text-indent:15px;
+    background-color:#995a5b;
+	border-radius:35px;
+	opacity:0.6;
+	color:#fff;
+	font-family:STSong;
+	font-size:15px;
+	font-weight:bold;
+	
+}
+.seach_{
+	background:url(../img/seach1.png) no-repeat;
+    width:30px;
+    height:30px;
+	outline:none;
+	border:0px;
+    cursor:pointer;
+	opacity:0.8;
+	margin-top:8px;
+}
+
+.Head_In-Text{
+	width:1050px;
+	height:438px;
+	text-align:center;
+	background-image:url(../img/简介-back.jpg);
+	background-repeat:no-repeat;
+	margin-top:20px;
+	margin-left:155px;
+	position:static;
+	box-shadow:0px 0px 40px 3px #bababa;
+}
+
+.head{
+	text-align:center;
+	width:500px;
+	height:270px;
+	margin-left:290px;
+	padding-top:40px;
+}
+
+.In{
+	text-align:center;
+	height:80px;
+	margin-top:15px;
+}
+
+.sp1{
+	text-align:center;
+	font-family:STSong;
+	font-size:50px;
+	font-weight:bold;
+	color:#fff;
+	border-bottom:3px solid #fff;
+}
+
+.text{
+	text-align:center;
+	width:600px;
+	height:100px;
+	margin-left:250px;
+	margin-top:15px;
+}
+
+.in{
+	font-size:36px;
+	color:#fff;
+	font-weight:bold;
+}
+
+.back2{
+	width:1000px;
+	height:2280px;
+	background-color:#fff;
+	margin-left:180px;
+	margin-top:-55px;
+	background-image: linear-gradient(#fff, #dca197,#4b4b4b); 
+	box-shadow:0px 0px 40px 3px #bababa;
+	border-radius:25px;
+}
+
+.b-3{
+	width:1000px;
+	height:65px;
+	background-image:url(../img/背景2.jpg);
+	border-top-right-radius:25px;
+	border-top-left-radius:25px;
+	
+	opacity:0.5;
+}
+
+.content1{
+	width:1000px;
+	height:300px;
+	padding-top:40px;
+	
+}
+.content-pic1{
+	width:300px;
+	height:80px;
+	background-image:url(../img/introduction.png);
+	background-repeat:no-repeat;
+}
+.content-con1{
+	width:100px;
+	height:100px;
+	text-align:left;
+	margin-left:123px;
+	border:2px solid #000000;
+	border-radius:15px;
+	background-image:url(../img/01.png);
+	
+}
+.content-con11{
+	width:650px;
+	height:200px;
+	text-align:right;
+	margin-left:273px;
+	margin-top:-102px;
+	border:2px solid #000000;
+	border-radius:15px;
+	background-color:#fff;
+	
+}
+.text_1{
+	width:290px;
+	height:150spx;
+	margin-left:30px;
+	margin-top:25px;
+	font-family:STFangSong;
+	font-size:25px;
+}
+.text_2{
+	width:360px;
+	height:150px;
+	font-family:STFangSong;
+	font-size:18px;
+	font-weight:bold;
+	margin-left:265px;
+	margin-top:-130px;
+}
+
+.content2{
+	width:1000px;
+	height:500px;
+	margin-top:40px;
+}
+.content-pic2{
+	width:240px;
+	height:80px;
+	background-image:url(../img/hobby.png);
+	background-repeat:no-repeat;
+	margin-left:750px;
+}
+.content-con2{
+	width:650px;
+	height:400px;
+	/*background-color:#8f0000;*/
+	text-align:center;
+	margin-left:123px;
+	border:2px solid #000000;
+	border-radius:15px;
+}
+.content-con22{
+	width:100px;
+	height:100px;
+	text-align:right;
+	margin-left:823px;
+	margin-top:-402px;
+	border:2px solid #000000;
+	border-radius:15px;
+	background-image:url(../img/02.png);
+}
+
+.content3{
+	width:550px;
+	height:650px;
+	margin-top:40px;
+}
+.content-pic3{
+	width:300px;
+	height:80px;
+	background-image:url(../img/music.png);
+	background-repeat:no-repeat;
+}
+.content-con3{
+	width:100px;
+	height:100px;
+	border:2px solid #000000;
+	border-radius:15px;
+	margin-left:123px;
+	background-image:url(../img/03.png);
+}
+.content-con33{
+	width:250px;
+	height:500px;
+	border:2px solid #000000;
+	border-radius:15px;
+	margin-left:273px;
+	margin-top:-102px;
+	background-color:#fff;
+	opacity:0.5;
+}
+
+.content4{
+	width:450px;
+	height:360px;
+	margin-left:550px;
+	margin-top:-520px;
+}
+.content-pic4{
+	width:240px;
+	height:80px;
+	background-image:url(../img/drama.png);
+	background-repeat:no-repeat;
+	margin-left:200px;
+}
+.content-con4{
+	width:220px;
+	height:300px;
+	border:2px solid #000000;
+	border-radius:15px;
+	background-color:#fff;
+	opacity:0.5;
+}
+.content-con44{
+	width:100px;
+	height:100px;
+	text-align:right;
+	margin-left:273px;
+	margin-top:-305px;
+	border:2px solid #000000;
+	border-radius:15px;
+	background-image:url(../img/04.png);
+}
+
+.content5{
+	width:1000px;
+	height:400px;
+	margin-top:165px;
+}
+.content-pic5{
+	width:1000px;
+	height:80px;
+	background-image:url(../img/photo.png);
+	background-repeat:no-repeat;
+}
+.content-con5{
+	width:
+}
+#frame {/*----------图片轮播相框容器----------*/			
+    position: absolute; /*--绝对定位，方便子元素的定位*/			
+	width: 800px;			
+	height: 450px;			
+	overflow: hidden;/*--相框作用，只显示一个图片---*/			
+	border-radius:10px;		
+	margin-left:100px;
+	margin-top:40px;
+}				
+#photos img {			
+    float: left;			
+	width:800px;			
+	height:450px;		
+}		
+#photos {/*---设置总的图片宽度--通过位移来达到轮播效果----*/			
+    position: absolute;
+	z-index:9px;			
+	width: calc(800px * 10);
+	/*---修改图片数量的话需要修改下面的动画参数*/		
+}		
+.play{			
+    animation: ma 20s ease-out infinite alternate;/**/		
+}		
+@keyframes ma {/*---每图片切换有两个阶段：位移切换和静置。中间的效果可以任意定制----*/			
+    0%,10% {		
+	margin-left: 0px;		
+}			
+    10%,20% {		
+	margin-left: -800px;	
+}			
+    20%,30% {		
+	margin-left: -1600px;	
+}			
+    30%,40% {		
+	margin-left: -2400px;	
+}			
+    40%,50% {		
+	margin-left: -3200px;	
+}		    
+    50%,60% {		
+	margin-left: -4000px;	
+}	
+    60%,70% {		
+	margin-left: -4800px;	
+}	
+    70%,80% {		
+	margin-left: -5600px;	
+}	
+    80%,90% {		
+	margin-left: -6400px;	
+}	
+    90%,100% {		
+	margin-left: -7200px;	
+}	
+
+}		
+@keyframes ma1 {0%{margin-left:-5600px;}100%{margin-left:-0px;}	}		
+@keyframes ma2 {0%{margin-left:-5600px;}100%{margin-left:-800px;}	}		
+@keyframes ma3 {100%{margin-left:-1600px;}	}		
+@keyframes ma4 {100%{margin-left:-2400px;}	}		
+@keyframes ma5 {100%{margin-left:-3200px;}	}
+@keyframes ma6 {100%{margin-left:-4000px;}	}
+@keyframes ma7 {100%{margin-left:-4800px;}	}
+@keyframes ma8 {100%{margin-left:-5600px;}	}
+
+.bottom{
+	width:1050px;
+	height:50px;
+}
+
+.m-list{
+	margin-top:20px;
+	height:400px;
+}
+.m-list li{
+	text-align:center;
+	font-family:STFangSong;
+	font-size:18px;
+}
+
+.d-list{
+	margin-top:20px;
+	height:400px;
+}
+.d-list li{
+	text-align:center;
+	font-family:STFangSong;
+	font-size:18px;
+}
